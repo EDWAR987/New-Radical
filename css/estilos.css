@@ -1,0 +1,96 @@
+body {
+    background-color: #fffaf2; 
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.btn-naranja {
+    background-color: #ff7f00;
+    color: white; 
+    border: none;
+}
+
+.btn-naranja:hover {
+    background-color: #e06900;
+    color:#fff;
+}
+
+.titulo-naranja {
+    color: #ff7f00;
+}
+
+.card-header-naranja {
+    background-color: #ff7f00;
+    color: white;
+}
+
+.borde-negro {
+    border: 2px solid #000;
+}
+.navbar .navbar-brand {
+    font-size: 1.5rem;
+}
+
+.navbar .nav-link {
+    color: white;
+}
+
+.navbar .nav-link:hover {
+    color: #ff7f00;
+}
+/* Barra de navegación naranja */
+.custom-navbar {
+    background-color: #ff6600;
+    padding: 1rem;
+}
+
+/* Texto de navbar blanco */
+.custom-navbar .navbar-brand,
+.custom-navbar .nav-link,
+.custom-navbar .navbar-text {
+    color: white !important;
+}
+
+/* Hover en navbar */
+.custom-navbar .navbar-brand:hover,
+.custom-navbar .nav-link:hover {
+    color: #000 !important;
+}
+
+/* Botón carrito negro */
+.btn-carrito {
+    background-color: black;
+    color: white;
+}
+
+.btn-carrito:hover {
+    background-color: #333;
+}
+
+a {
+    color: #ff6600;
+    text-decoration: none;
+}
+a:hover {
+    color: #cc5200;
+}
+
+/* Tarjetas de producto */
+.producto-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    transition: all 0.3s ease;
+}
+
+.producto-card:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+/* Footer */
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    margin-top: 3rem;
+}
